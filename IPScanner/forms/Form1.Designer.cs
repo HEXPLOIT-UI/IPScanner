@@ -235,7 +235,7 @@ namespace IPScanner
             this.TimeoutBox.Location = new System.Drawing.Point(299, 87);
             this.TimeoutBox.MaxLength = 36;
             this.TimeoutBox.Name = "TimeoutBox";
-            this.TimeoutBox.PromptText = "Enter a timeout in ms(Example: 500)";
+            this.TimeoutBox.PromptText = "Enter a timeout in ms";
             this.TimeoutBox.Size = new System.Drawing.Size(208, 23);
             this.TimeoutBox.Style = MetroFramework.MetroColorStyle.Pink;
             this.TimeoutBox.TabIndex = 13;
@@ -270,7 +270,7 @@ namespace IPScanner
             this.PortRangeBox.Location = new System.Drawing.Point(85, 87);
             this.PortRangeBox.MaxLength = 36;
             this.PortRangeBox.Name = "PortRangeBox";
-            this.PortRangeBox.PromptText = "Example: 1-30000";
+            this.PortRangeBox.PromptText = "Example: 1-3000";
             this.PortRangeBox.Size = new System.Drawing.Size(208, 23);
             this.PortRangeBox.Style = MetroFramework.MetroColorStyle.Pink;
             this.PortRangeBox.TabIndex = 15;
@@ -324,7 +324,7 @@ namespace IPScanner
             this.Resizable = false;
             this.ShadowType = MetroFramework.Forms.MetroForm.MetroFormShadowType.DropShadow;
             this.Style = MetroFramework.MetroColorStyle.Magenta;
-            this.Text = "IPScanner";
+            this.Text = " ";
             this.TextAlign = System.Windows.Forms.VisualStyles.HorizontalAlign.Center;
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.ResumeLayout(false);

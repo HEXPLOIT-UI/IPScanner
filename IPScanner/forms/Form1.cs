@@ -1,8 +1,6 @@
 ﻿using MetroFramework.Forms;
 using Newtonsoft.Json;
-using Simple.DotNMap;
 using System;
-using System.Drawing;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -55,7 +53,7 @@ namespace IPScanner
                                 int port = int.Parse(s);
                                 using (TcpClient scan = new TcpClient())
                                 {
-                                    Task<bool> t = Task.Run(() => scan.ConnectAsync(ipAddress, port).Wait(500));
+                                    Task<bool> t = Task.Run(() => scan.ConnectAsync(ipAddress, port).Wait(100));
                                     await t;
                                     if (!t.Result)
                                     {
