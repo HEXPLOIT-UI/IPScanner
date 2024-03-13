@@ -1,7 +1,6 @@
 # IPScanner - simple and reliable
 
-To get started with this software, you will need the .NET Framework 4.7.2 installed,
-which is usually already present in windows 7,8,10
+To get started with this software, you will need the .NET Framework 4.7.2 installed
 
 How to use this program:
 1) Download the software archive and unzip it to a convenient location
